@@ -1,4 +1,4 @@
-package com.hawksjamesf.designpatterns.creational.kotlin
+package com.hawksjamesf.designpatterns.behavioral.kotlin
 
 /**
  * Copyright ® $ 2017
@@ -7,7 +7,5 @@ package com.hawksjamesf.designpatterns.creational.kotlin
  * @author: hawks.jamesf
  * @since: Aug/02/2018  Thu
  */
-//lazy load ,thread safe
-object KotlinSingleton {
-
+class KotlinStategy {
 }
