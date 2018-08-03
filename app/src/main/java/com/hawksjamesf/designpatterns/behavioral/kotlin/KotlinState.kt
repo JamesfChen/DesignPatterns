@@ -7,5 +7,4 @@ package com.hawksjamesf.designpatterns.behavioral.kotlin
  * @author: hawks.jamesf
  * @since: Aug/02/2018  Thu
  */
-class KotlinState {
-}
+sealed class KotlinState

@@ -5,7 +5,8 @@ package com.hawksjamesf.designpatterns.behavioral.kotlin
  * All right reserved.
  *
  * @author: hawks.jamesf
- * @since: Aug/02/2018  Thu
+ * @since: Aug/03/2018  Fri
  */
-class KotlinStategy {
+class KotlinChainOfResponsibility {
+
 }

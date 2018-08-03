@@ -5,8 +5,8 @@ package com.hawksjamesf.designpatterns.behavioral.java;
  * All right reserved.
  *
  * @author: hawks.jamesf
- * @since: Aug/02/2018  Thu
+ * @since: Aug/03/2018  Fri
  */
 
-public class JavaStategy {
+public class JavaChainOfResponsibility {
 }

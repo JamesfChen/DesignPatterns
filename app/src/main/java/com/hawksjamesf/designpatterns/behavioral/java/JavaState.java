@@ -8,5 +8,19 @@ package com.hawksjamesf.designpatterns.behavioral.java;
  * @since: Aug/02/2018  Thu
  */
 
-public class JavaState {
+public interface JavaState {
+}
+
+class AuthState implements JavaState {
+
+}
+
+class UnAuthState implements JavaState {
+
+}
+
+class Activity2 {
+    public void call() {
+
+    }
 }

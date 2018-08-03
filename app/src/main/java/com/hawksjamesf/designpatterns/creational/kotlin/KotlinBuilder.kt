@@ -40,7 +40,7 @@ class Dialog {
     }
 }
 
-class Activity1 {
+class Activity4 {
     fun call() {
         Dialog.Builder {
             title {
