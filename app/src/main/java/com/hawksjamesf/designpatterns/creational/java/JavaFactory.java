@@ -8,7 +8,7 @@ package com.hawksjamesf.designpatterns.creational.java;
  * @since: Aug/02/2018  Thu
  */
 //=========================================== abstract factory start
-interface JavaAbstractFactory<T> {
+interface JavaAbstractFactory<T extends ViewModel> {
     T create();
 }
 
