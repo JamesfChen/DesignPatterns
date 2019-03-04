@@ -7,6 +7,6 @@ package com.hawksjamesf.designpatterns.behavioral.java;
  * @author: hawskjamesf
  * @since: Aug/28/2018  Tue
  */
-public class JavaObserver<> {
+public class JavaObserver<String> {
 }
 

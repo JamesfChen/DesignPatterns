@@ -16,10 +16,11 @@
 package com.github.markzhai.recyclerview;
 
 import android.content.Context;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 
 import java.util.List;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Base Data Binding RecyclerView Adapter.

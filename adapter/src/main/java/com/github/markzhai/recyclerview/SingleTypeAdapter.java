@@ -16,12 +16,13 @@
 package com.github.markzhai.recyclerview;
 
 import android.content.Context;
-import android.databinding.DataBindingUtil;
-import android.support.annotation.LayoutRes;
 import android.view.ViewGroup;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import androidx.annotation.LayoutRes;
+import androidx.databinding.DataBindingUtil;
 
 /**
  * Super simple single-type adapter using data-binding.

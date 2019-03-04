@@ -16,14 +16,15 @@
 package com.github.markzhai.recyclerview;
 
 import android.content.Context;
-import android.databinding.DataBindingUtil;
-import android.support.annotation.LayoutRes;
-import android.support.v4.util.ArrayMap;
 import android.view.ViewGroup;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+
+import androidx.annotation.LayoutRes;
+import androidx.collection.ArrayMap;
+import androidx.databinding.DataBindingUtil;
 
 /**
  * Super simple multi-type adapter using data-binding.

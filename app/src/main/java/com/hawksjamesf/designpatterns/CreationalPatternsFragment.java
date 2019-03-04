@@ -1,23 +1,24 @@
 package com.hawksjamesf.designpatterns;
 
 import android.content.Context;
-import android.databinding.DataBindingUtil;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.design.widget.Snackbar;
-import android.support.v4.app.Fragment;
-import android.support.v7.widget.DividerItemDecoration;
-import android.support.v7.widget.LinearLayoutManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
 import com.github.markzhai.recyclerview.BaseViewAdapter;
 import com.github.markzhai.recyclerview.MultiTypeAdapter;
+import com.google.android.material.snackbar.Snackbar;
 import com.hawksjamesf.designpatterns.databinding.FragmentCreationalPatternsBinding;
 
 import java.util.Arrays;
 import java.util.List;
+
+import androidx.annotation.Nullable;
+import androidx.databinding.DataBindingUtil;
+import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.DividerItemDecoration;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
 /**
  * Copyright ® $ 2017

@@ -1,6 +1,6 @@
 package com.hawksjamesf.designpatterns;
 
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 
 /**
  * Copyright ® $ 2017
