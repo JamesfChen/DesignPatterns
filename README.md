@@ -1,3 +1,5 @@
+[![pipeline status](https://gitlab.com/hawks.jamesf/designpatterns/badges/master/pipeline.svg)](https://gitlab.com/hawks.jamesf/designpatterns/commits/master)
+
 Hello World
 ===
 This project is building.I will improve it in my spare time and quickly achieve the project plan.
