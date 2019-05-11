@@ -1,5 +1,6 @@
 [![pipeline status](https://gitlab.com/hawks.jamesf/designpatterns/badges/master/pipeline.svg)](https://gitlab.com/hawks.jamesf/designpatterns/commits/master)
 [![coverage report](https://gitlab.com/hawks.jamesf/designpatterns/badges/master/coverage.svg)](https://gitlab.com/hawks.jamesf/designpatterns/commits/master)
+[![Build Status](https://travis-ci.com/HawksJamesf/DesignPatterns.svg?branch=master)](https://travis-ci.com/HawksJamesf/DesignPatterns)
 
 Hello World
 ===
