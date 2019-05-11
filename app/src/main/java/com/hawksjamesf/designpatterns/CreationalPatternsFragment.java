@@ -73,8 +73,8 @@ public class CreationalPatternsFragment extends Fragment {
         adapter = new CreationalAdapter(getActivity());
         adapter.setPresenter(new Presenter());
         mBinding.rlv.setAdapter(adapter);
-        mBinding.rlv.setLayoutManager(new LinearLayoutManager(getActivity(), LinearLayoutManager.VERTICAL, true));
-        mBinding.rlv.addItemDecoration(new DividerItemDecoration(getActivity(), LinearLayoutManager.VERTICAL));
+        mBinding.rlv.setLayoutManager(new LinearLayoutManager(getActivity(), RecyclerView.VERTICAL, true));
+        mBinding.rlv.addItemDecoration(new DividerItemDecoration(getActivity(), RecyclerView.VERTICAL));
         adapter.addAll(mData, 0);
     }
 
