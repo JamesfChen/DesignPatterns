@@ -1,7 +1,6 @@
-package com.hawksjamesf.designpatterns.creational.kotlin
 
-import android.content.res.ColorStateList
-import android.widget.TextView
+import java.awt.SystemColor.text
+
 
 /**
  * Copyright ® $ 2017
@@ -52,4 +51,3 @@ class Activity4 {
 
 
 }
-

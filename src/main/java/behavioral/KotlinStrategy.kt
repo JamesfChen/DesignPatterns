@@ -1,4 +1,4 @@
-package com.hawksjamesf.designpatterns.behavioral.kotlin
+package behavioral
 
 /**
  * Copyright ® $ 2017

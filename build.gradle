@@ -1,5 +1,24 @@
+buildscript {
+    dependencies {
+        // 添加这一行依赖
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.0"
+    }
+
+    repositories {
+        jcenter()
+        google()
+        maven { url "https://jitpack.io" }
+        maven { url "https://maven.aliyun.com/repository/jcenter" }
+        maven { url 'https://plugins.gradle.org/m2/' }
+        mavenLocal()
+        maven {
+            url "https://dl.bintray.com/kotlin/kotlin-eap/"
+        }
+    }
+}
 plugins {
     id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.4.0-rc'
 }
 
 group 'com.hawksjamesf'
@@ -7,10 +26,18 @@ version '1.0-SNAPSHOT'
 
 sourceCompatibility = 1.8
 
-repositories {
-    mavenCentral()
-}
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+}
+compileKotlin {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+}
+compileTestKotlin {
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
 }

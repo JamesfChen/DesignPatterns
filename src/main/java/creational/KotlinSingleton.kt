@@ -1,4 +1,4 @@
-package com.hawksjamesf.designpatterns.structural.java;
+package creational
 
 /**
  * Copyright ® $ 2017
@@ -7,6 +7,7 @@ package com.hawksjamesf.designpatterns.structural.java;
  * @author: hawks.jamesf
  * @since: Aug/02/2018  Thu
  */
+//lazy load ,thread safe
+object KotlinSingleton {
 
-public class JavaAdapter {
 }

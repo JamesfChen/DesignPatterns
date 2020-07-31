@@ -1,4 +1,4 @@
-package com.hawksjamesf.designpatterns.structural.kotlin
+package structural
 
 /**
  * Copyright ® $ 2017

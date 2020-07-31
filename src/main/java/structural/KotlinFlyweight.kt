@@ -1,4 +1,4 @@
-package com.hawksjamesf.designpatterns.behavioral.kotlin
+package structural
 
 /**
  * Copyright ® $ 2017
@@ -7,6 +7,5 @@ package com.hawksjamesf.designpatterns.behavioral.kotlin
  * @author: hawks.jamesf
  * @since: Aug/03/2018  Fri
  */
-class KotlinChainOfResponsibility {
-
+class KotlinFlyweight {
 }

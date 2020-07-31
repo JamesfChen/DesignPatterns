@@ -1,4 +1,4 @@
-package com.hawksjamesf.designpatterns.behavioral.java;
+package behavioral
 
 /**
  * Copyright ® $ 2017
@@ -7,6 +7,6 @@ package com.hawksjamesf.designpatterns.behavioral.java;
  * @author: hawks.jamesf
  * @since: Aug/03/2018  Fri
  */
+class KotlinChainOfResponsibility {
 
-public class JavaChainOfResponsibility {
 }

@@ -1,4 +1,4 @@
-package com.hawksjamesf.designpatterns.structural.java;
+package structural;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -12,7 +12,7 @@ import java.util.Map;
  * <p>
  * Flyweight patterns针对大数据的优化。为了降低内存消耗，通常在get数据之前都会查找是否之前创建过该数据。典型的Integer.valueOf就是按照这种逻辑实现的
  */
-public class KotlinFlyweight {
+public class JavaFlyweight {
     Map<Integer, String> map = new HashMap();
 
     public String valueOf(Integer t) {

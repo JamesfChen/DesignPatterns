@@ -1,4 +1,4 @@
-package com.hawksjamesf.designpatterns.behavioral.kotlin
+package structural;
 
 /**
  * Copyright ® $ 2017
@@ -7,4 +7,6 @@ package com.hawksjamesf.designpatterns.behavioral.kotlin
  * @author: hawks.jamesf
  * @since: Aug/02/2018  Thu
  */
-sealed class KotlinState
+
+public class JavaAdapter {
+}

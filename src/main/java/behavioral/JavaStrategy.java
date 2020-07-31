@@ -1,4 +1,4 @@
-package com.hawksjamesf.designpatterns.behavioral.java;
+package behavioral;
 
 /**
  * Copyright ® $ 2017
@@ -29,14 +29,14 @@ class DefaultStrategy implements JavaStrategy {
     }
 }
 
-class Activity {
-    void call(boolean useFlyweightMapStorage) {
-        JavaStrategy strategy;
-        if (useFlyweightMapStorage) {
-            strategy = new FlyweightStrategy();
-        } else {
-            strategy = new DefaultStrategy();
-        }
-        strategy.readExternal();
-    }
-}
+//class Activity {
+//    void call(boolean useFlyweightMapStorage) {
+//        JavaStrategy strategy;
+//        if (useFlyweightMapStorage) {
+//            strategy = new FlyweightStrategy();
+//        } else {
+//            strategy = new DefaultStrategy();
+//        }
+//        strategy.readExternal();
+//    }
+//}

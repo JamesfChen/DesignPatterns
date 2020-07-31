@@ -1,7 +1,4 @@
-package com.hawksjamesf.designpatterns.creational.kotlin
-
-import android.icu.lang.UCharacter.GraphemeClusterBreak.T
-import android.os.Bundle
+package creational
 
 /**
  * Copyright ® $ 2017
@@ -33,15 +30,15 @@ class CustomViewModel : ViewModel {
 
 class Activity {
     fun call() {
-        var androidViewModel = AndroidViewModel.Companion.create()
-        var customViewModel = CustomViewModel.Companion.create()
+        var androidViewModel = AndroidViewModel.create()
+        var customViewModel = CustomViewModel.create()
 
     }
 }
 //=========================================== abstract factory end
 
 
-//=========================================== abstract factory start
+//=========================================== static abstract factory start
 interface KotlinAbstractFactory2 {
     companion object {
         inline fun <reified T : ViewModel> create(): ViewModel = when (T::class) {
@@ -66,30 +63,29 @@ class Activity2 {
     }
 }
 
-//=========================================== abstract factory end
+//=========================================== static abstract factory end
 
 //=========================================== factory method start
 class Fragment {
-    private var argument: Bundle? = null
 
     companion object {
-        fun newInstance(bundle: Bundle): Fragment {
+        fun newInstance(): Fragment {
             val fragment = Fragment()
-            fragment.argument = bundle
             return fragment
         }
     }
 }
+
 enum class Enum {
     ONE,
     TOW,
     THREE;
+
     companion object {
         fun valueOf(value: String): Enum? {
-            Enum.values()
-                    .filter { it.name == value }
-                    .forEach { return it }
-
+            for (e in Enum.values()) {
+                if (e.name == value) return e
+            }
             return null
         }
     }
@@ -97,7 +93,7 @@ enum class Enum {
 
 class Activity3 {
     fun call() {
-        var fragment = Fragment.newInstance(bundle = Bundle())
+        var fragment = Fragment.newInstance()
         var enum = Enum.valueOf("ONE")
     }
 }

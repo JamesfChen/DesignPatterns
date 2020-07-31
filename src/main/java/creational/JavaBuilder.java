@@ -1,4 +1,4 @@
-package com.hawksjamesf.designpatterns.creational.java;
+package creational;
 
 /**
  * Copyright ® $ 2017

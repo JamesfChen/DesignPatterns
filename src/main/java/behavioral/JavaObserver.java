@@ -1,4 +1,4 @@
-package com.hawksjamesf.designpatterns.behavioral.java;
+package behavioral;
 
 /**
  * Copyright ® $ 2017
