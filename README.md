@@ -55,6 +55,8 @@ DesignPrinciple
     最小接口原则(Interface Segregation，ISP)
     迪米特法则():高内聚、低耦合
 
+# Refrence
+[](https://refactoringguru.cn/design-patterns/python)
 
 
 

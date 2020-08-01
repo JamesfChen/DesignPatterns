@@ -8,6 +8,8 @@ __new__ vs. __init__:当需要控制新实例的创建时使用 new，而在需�
 
 
  """
+
+
 class Singleton(type):
     """
     Singleton Metaclass
@@ -20,7 +22,10 @@ class Singleton(type):
             cls._inst[cls] = super(Singleton, cls).__call__(*args)
         return cls._inst[cls]
 
+
 class PythonSingleton():
     __metaclass__ = Singleton
     pass
+
+
 print(type(PythonSingleton))
