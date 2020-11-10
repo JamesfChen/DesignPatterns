@@ -15,11 +15,11 @@ This is word
 1.[设计模式原则 Design Principle](#DesignPrinciple)
 
 2.[创建型模式 Creational](/src/main/java/creational/README.md)
-- [单例模式 Singleton](/src/main/java/structural/README.md#Singleton)
-- [原型模式 Prototype](/src/main/java/structural/README.md#Prototype)
-- [构建模式 Builder](/src/main/java/structural/README.md#Builder)
-- [工厂方法 Factory method](/src/main/java/structural/README.md#FactoryMethod)
-- [抽象工厂和静态工厂 Abstract Factory](/src/main/java/structural/README.md#AbstractFactory)
+- [单例模式 Singleton](/src/main/java/creational/README.md#Singleton)
+- [原型模式 Prototype](/src/main/java/creational/README.md#Prototype)
+- [构建模式 Builder](/src/main/java/creational/README.md#Builder)
+- [工厂方法 Factory method](/src/main/java/creational/README.md#FactoryMethod)
+- [抽象工厂和静态工厂 Abstract Factory](/src/main/java/creational/README.md#AbstractFactory)
 
 3.[结构型模式 Structural](/src/main/java/structural/README.md)
 
@@ -33,17 +33,17 @@ This is word
 
 4.[行为型模式 Behavioral](/src/main/java/behavioral/README.md)
 
-- [观察者模式 Observer](/src/main/java/structural/README.md#Observer)
-- [状态模式 State](/src/main/java/structural/README.md#State)
-- [策略模式 Strategy](/src/main/java/structural/README.md#Strategy)
-- [负责链模式 Chain of responsibility](/src/main/java/structural/README.md#ChainOfResponsibility)
-- [命令模式 Command](/src/main/java/structural/README.md#Command)
-- [拦截器模式 Interpreter](/src/main/java/structural/README.md#Interpreter)
-- [迭代器模式 Iterator](/src/main/java/structural/README.md#Iterator)
-- [中介者模式 Mediator](/src/main/java/structural/README.md#Mediator)
-- [备忘录模式 Memento](/src/main/java/structural/README.md#Memento)
-- [模板方法 Template method](/src/main/java/structural/README.md#TemplateMethod)
-- [拜访者模式 Visitor](/src/main/java/structural/README.md#Visitor)
+- [观察者模式 Observer](/src/main/java/behavioral/README.md#Observer)
+- [状态模式 State](/src/main/java/behavioral/README.md#State)
+- [策略模式 Strategy](/src/main/java/behavioral/README.md#Strategy)
+- [负责链模式 Chain of responsibility](/src/main/java/behavioral/README.md#ChainOfResponsibility)
+- [命令模式 Command](/src/main/java/behavioral/README.md#Command)
+- [拦截器模式 Interpreter](/src/main/java/behavioral/README.md#Interpreter)
+- [迭代器模式 Iterator](/src/main/java/behavioral/README.md#Iterator)
+- [中介者模式 Mediator](/src/main/java/behavioral/README.md#Mediator)
+- [备忘录模式 Memento](/src/main/java/behavioral/README.md#Memento)
+- [模板方法 Template method](/src/main/java/behavioral/README.md#TemplateMethod)
+- [拜访者模式 Visitor](/src/main/java/behavioral/README.md#Visitor)
 
 DesignPrinciple
 ===============
