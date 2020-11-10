@@ -11,6 +11,7 @@ Behavioral
 ## Strategy
 
 ## Chain of responsibility
+网络请求链式处理
 ## Command
 ## Interpreter
 ## Iterator

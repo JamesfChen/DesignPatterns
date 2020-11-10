@@ -57,6 +57,8 @@ DesignPrinciple
 
 # Refrence
 [python design patterns](https://refactoringguru.cn/design-patterns/python)
+[Examples of GoF Design Patterns in Java's core libraries](https://stackoverflow.com/questions/1673841/examples-of-gof-design-patterns-in-javas-core-libraries)
+[Java Design Patterns](http://java-design-patterns.com/patterns/)
 
 
 
