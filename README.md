@@ -56,7 +56,7 @@ DesignPrinciple
     迪米特法则():高内聚、低耦合
 
 # Refrence
-[](https://refactoringguru.cn/design-patterns/python)
+[python design patterns](https://refactoringguru.cn/design-patterns/python)
 
 
 
