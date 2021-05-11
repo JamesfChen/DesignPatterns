@@ -49,11 +49,11 @@ DesignPrinciple
 ===============
 
     单一职责(Single responsibility principle,SRP):每个类或者模块应该负责软件提供的功能单一部分
-    开闭原则(Open/Closed Principle):对于扩展进行开放，对于内部修改进行关闭。
-    里氏替换原则(Liskov's Substitution Principle):参数传递应使用基类
-    依赖反转(Dependency Inversion Principle):依赖抽象，不要依赖具体
-    最小接口原则(Interface Segregation，ISP)
-    迪米特法则():高内聚、低耦合
+    开闭原则(Open/Closed Principle,OCP):对于扩展进行开放，对于内部修改进行关闭。
+    里氏替换原则(Liskov's Substitution Principle,LSP):子类对象可以替换父类对象
+    依赖反转(Dependency Inversion Principle,DIP):依赖抽象，不要依赖具体
+    接口分离原则(Interface Segregation，ISP):不能强迫用户去依赖那些他们不适用的接口(相当于AnimatorListener与AnimatorListenerAdapter)
+    迪米特法则(Law of  Demeter, LOD):一个对象应该尽可能的接触那些它应该接触的对象
 
 # Refrence
 [python design patterns](https://refactoringguru.cn/design-patterns/python)
